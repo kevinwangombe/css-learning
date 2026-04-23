@@ -1,0 +1,32 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+    h1{
+        font-size: 3rem;
+        width: calc(100% - 40px); // 40px is the width of the margin
+        margin: 20px;
+        padding: calc(1rem + 10px); // this has 26px of padding
+        background-color: lightblue;
+        border: 2px solid cyan;
+    }
+
+    .cssfuntions{
+        p{
+            width: min(calc(100% - 40px), 800px);
+            margin: min(calc(2rem + 20px), 60px) auto;
+            background-color: #f0f0f0;
+        }
+        
+        .max-demo{
+            width: max(calc(300px + 2rem), 400px);
+            margin: max(calc(1rem + 10px), 30px) auto;
+            background-color: #e8f4e8;
+            border: 2px solid green;
+        }
+    }
+}
